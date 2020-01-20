@@ -1,13 +1,3 @@
-; #(take % ...all fib numbers.)
-
-; (fn fibo
-;   ([] (fib 1 1))
-;   ([a b] (+ a b)))
-
-
-(defn add [a b]
-  (+ a b))
-
 (def penultimate
   (comp second reverse))
 
